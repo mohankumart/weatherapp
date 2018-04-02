@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/mohankumart/weatherapp/issues"
   },
-  "homepage": "https://github.com/mohankumart/weatherapp#readme"
+  "homepage": "https://github.com/mohankumart/weatherapp#readme",
+  "dependencies": {
+    "request": "^2.73.0",
+    "yargs": "^4.8.1"
+  }
 }
