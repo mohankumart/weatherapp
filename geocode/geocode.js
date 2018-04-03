@@ -28,6 +28,7 @@ module.exports.getCurrentTemperature = (latitude, longitude, callback) => {
     
     }, (error, response, body)=>{
         console.log(response)
+        debugger
         if(error){
             console.log(error)
         }else if(body.status == 'ZERO_RESULTS'){
